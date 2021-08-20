@@ -1,6 +1,6 @@
 # tagout
 
-Tagout Schedule Helper.
+Tagout schedule helper.
 
 ## Getting Started
 

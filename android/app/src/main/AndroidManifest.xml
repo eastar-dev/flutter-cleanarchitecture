@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="dev.eastar.tagout.tagout">
+    package="dev.eastar.tagout">
    <application
         android:label="tagout"
         android:icon="@mipmap/ic_launcher">
