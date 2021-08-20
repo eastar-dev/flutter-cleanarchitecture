@@ -1,0 +1,4 @@
+enum AuthenticationState {
+  login,
+  logout,
+}

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "491928665866",
+    "project_id": "tagout-schedule",
+    "storage_bucket": "tagout-schedule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491928665866:android:99a23084175783542804f3",
+        "android_client_info": {
+          "package_name": "dev.eastar.tagout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491928665866-8o64msfsnn3puoasvkbskeis59qs6o7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBks_eK1NNORHl0TciLSyTDIpBCH0u5n4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491928665866-8o64msfsnn3puoasvkbskeis59qs6o7h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "491928665866-vifdijrsgdm37re6347pog14rjdlj448.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.eastar.tagout"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
