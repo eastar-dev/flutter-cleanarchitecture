@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import '../data/source/remote/remote.dart';
+import '../../data/source/remote/remote.dart';
 
 void main() => runApp(MyApp());
 

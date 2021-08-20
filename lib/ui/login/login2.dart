@@ -1,13 +1,12 @@
 import 'dart:developer' as developer;
 
 import 'package:flutter/material.dart';
-import '../../data/source/remote/authentication_state.dart';
-import 'email_login_form.dart';
 import 'package:provider/provider.dart';
 
+import '../../data/source/remote/authentication_state.dart';
+import 'email_login_form.dart';
+
 void main() {
-  // Modify from here
-  developer.log("main");
   runApp(
     ChangeNotifierProvider<AuthenticationStateNotifier>(
       create: (context) => AuthenticationStateNotifier(),
@@ -23,7 +22,9 @@ class Login extends StatelessWidget {
     return MaterialApp(
       title: 'Login',
       theme: ThemeData(
-        buttonTheme: Theme.of(context).buttonTheme.copyWith(highlightColor: Colors.deepPurple),
+        buttonTheme: Theme.of(context)
+            .buttonTheme
+            .copyWith(highlightColor: Colors.deepPurple),
         primarySwatch: Colors.deepOrange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -38,9 +39,10 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  void Function(String email, String password) loginAccount = (email, password) => {
-        developer.log("loginAccount $email $password"),
-      };
+  void Function(String email, String password) loginAccount =
+      (email, password) => {
+            developer.log("loginAccount $email $password"),
+          };
 
   void Function() cancel = () => {
         developer.log("cancel"),
@@ -53,7 +55,8 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(title: Text("Login ${data.loginState}")),
       body: Center(
         child: Consumer<AuthenticationStateNotifier>(
-          builder: (context, authenticationStateNotifier, child) => EmailLoginForm(
+          builder: (context, authenticationStateNotifier, child) =>
+              EmailLoginForm(
             cancel: cancel,
             loginAccount: loginAccount,
           ),
