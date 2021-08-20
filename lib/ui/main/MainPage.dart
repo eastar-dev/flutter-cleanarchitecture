@@ -13,9 +13,12 @@ class _MainPageState extends State<MainPage> {
     return Column(
       children: [
         Image.network("http://tagout.co.kr/data/file/site_logo3.png"),
-        Center(
-          heightFactor: 13,
-          child: Text("Hello Tagout2"),
+        Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Center(
+            heightFactor: 13,
+            child: Text("Hello Tagout2"),
+          ),
         ),
       ],
     );
