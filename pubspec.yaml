@@ -29,11 +29,18 @@ dependencies:
   cloud_firestore: "^2.4.0"
   firebase_messaging: "^10.0.4"
   firebase_storage: "^10.0.1"
+
+  googleapis_auth: ^1.1.0
+  googleapis: ^4.0.0
+  url_launcher: ^6.0.9
+
   #https://firebase.google.com/codelabs/firebase-get-to-know-flutter#3
   #https://here4you.tistory.com/221
-  #https://pub.dev/packages/provider/install
   provider: ^5.0.0
-  #  firebase_crashlytics: "^2.1.1"
+
+#  firebase_crashlytics: "^2.1.1"
+
+  flutter_datetime_picker: ^1.5.1
 
   google_fonts: ^2.0.0
 
