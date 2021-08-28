@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dev.eastar.tagout">
    <application
-        android:label="tagout"
+        android:label="Tagout"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

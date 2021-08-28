@@ -12,7 +12,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Image.network("http://tagout.co.kr/data/file/site_logo3.png"),
+        Image.asset('assets/logo.jpg'),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Center(
